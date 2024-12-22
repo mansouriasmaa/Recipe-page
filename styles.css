@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3e6d8;
+}
+
+article {
+  background-color: #f7f7f7;
+  width: 50%;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.recipe-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.meal-description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #393e46;
+}
+
+.prepartion-time {
+  margin: 30px 0;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+h3 {
+  color: #7b284f;
+  margin: 20px 5px;
+}
+
+li {
+  margin-bottom: 20px;
+  margin-left: 30px;
+  color: #7b284f;
+  text-indent: 20px;
+}
+
+span {
+  color: black;
+}
+
+h2 {
+  color: #854632;
+  margin-bottom: 15px;
+}
+
+.horizontal-line {
+  color: #797d83;
+  margin: 30px 0;
+}
+
+.step {
+  color: #854632;
+}
+
+ol > li::marker {
+  font-weight: bold;
+}
+
+.nutrition-text {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.nutrition-details {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  /* text-indent: 40px; */
+}
+
+.value {
+  font-weight: bold;
+  color: #854632;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #854632;
+}
